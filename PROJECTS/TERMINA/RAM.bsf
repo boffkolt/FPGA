@@ -1,0 +1,148 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 2016  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel MegaCore Function License Agreement, or other 
+applicable license agreement, including, without limitation, 
+that your use is for the sole purpose of programming logic 
+devices manufactured by Intel and sold by Intel or its 
+authorized distributors.  Please refer to the applicable 
+agreement for further details.
+*/
+(header "symbol" (version "1.1"))
+(symbol
+	(rect 16 16 272 288)
+	(text "RAM" (rect 5 0 29 12)(font "Arial" ))
+	(text "inst" (rect 8 256 20 268)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "in_std_clk" (rect 0 0 40 12)(font "Arial" ))
+		(text "in_std_clk" (rect 21 27 61 39)(font "Arial" ))
+		(line (pt 0 32)(pt 16 32)(line_width 1))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "in_std_ena" (rect 0 0 43 12)(font "Arial" ))
+		(text "in_std_ena" (rect 21 43 64 55)(font "Arial" ))
+		(line (pt 0 48)(pt 16 48)(line_width 1))
+	)
+	(port
+		(pt 256 48)
+		(output)
+		(text "out_std_ext_dir" (rect 0 0 62 12)(font "Arial" ))
+		(text "out_std_ext_dir" (rect 173 43 235 55)(font "Arial" ))
+		(line (pt 256 48)(pt 240 48)(line_width 1))
+	)
+	(port
+		(pt 256 64)
+		(output)
+		(text "out_std_ext_noe" (rect 0 0 67 12)(font "Arial" ))
+		(text "out_std_ext_noe" (rect 168 59 235 71)(font "Arial" ))
+		(line (pt 256 64)(pt 240 64)(line_width 1))
+	)
+	(port
+		(pt 256 80)
+		(output)
+		(text "out_std_ext_nwe" (rect 0 0 68 12)(font "Arial" ))
+		(text "out_std_ext_nwe" (rect 167 75 235 87)(font "Arial" ))
+		(line (pt 256 80)(pt 240 80)(line_width 1))
+	)
+	(port
+		(pt 256 96)
+		(output)
+		(text "out_std12_adr[10..0]" (rect 0 0 80 12)(font "Arial" ))
+		(text "out_std12_adr[10..0]" (rect 155 91 235 103)(font "Arial" ))
+		(line (pt 256 96)(pt 240 96)(line_width 3))
+	)
+	(port
+		(pt 256 112)
+		(output)
+		(text "out_std8_nce[7..0]" (rect 0 0 74 12)(font "Arial" ))
+		(text "out_std8_nce[7..0]" (rect 161 107 235 119)(font "Arial" ))
+		(line (pt 256 112)(pt 240 112)(line_width 3))
+	)
+	(port
+		(pt 256 128)
+		(output)
+		(text "out_std_dir" (rect 0 0 44 12)(font "Arial" ))
+		(text "out_std_dir" (rect 191 123 235 135)(font "Arial" ))
+		(line (pt 256 128)(pt 240 128)(line_width 1))
+	)
+	(port
+		(pt 256 144)
+		(output)
+		(text "out_std_oe" (rect 0 0 44 12)(font "Arial" ))
+		(text "out_std_oe" (rect 191 139 235 151)(font "Arial" ))
+		(line (pt 256 144)(pt 240 144)(line_width 1))
+	)
+	(port
+		(pt 256 160)
+		(output)
+		(text "out_std8_nce_str[5..0]" (rect 0 0 90 12)(font "Arial" ))
+		(text "out_std8_nce_str[5..0]" (rect 145 155 235 167)(font "Arial" ))
+		(line (pt 256 160)(pt 240 160)(line_width 3))
+	)
+	(port
+		(pt 256 176)
+		(output)
+		(text "out_std8_nce_buf[7..0]" (rect 0 0 93 12)(font "Arial" ))
+		(text "out_std8_nce_buf[7..0]" (rect 142 171 235 183)(font "Arial" ))
+		(line (pt 256 176)(pt 240 176)(line_width 3))
+	)
+	(port
+		(pt 256 192)
+		(output)
+		(text "out_std11_adr_buf[10..0]" (rect 0 0 97 12)(font "Arial" ))
+		(text "out_std11_adr_buf[10..0]" (rect 138 187 235 199)(font "Arial" ))
+		(line (pt 256 192)(pt 240 192)(line_width 3))
+	)
+	(port
+		(pt 256 224)
+		(output)
+		(text "out_std_noe_buf" (rect 0 0 68 12)(font "Arial" ))
+		(text "out_std_noe_buf" (rect 167 219 235 231)(font "Arial" ))
+		(line (pt 256 224)(pt 240 224)(line_width 1))
+	)
+	(port
+		(pt 256 240)
+		(output)
+		(text "out_std_nwe_buf" (rect 0 0 69 12)(font "Arial" ))
+		(text "out_std_nwe_buf" (rect 166 235 235 247)(font "Arial" ))
+		(line (pt 256 240)(pt 240 240)(line_width 1))
+	)
+	(port
+		(pt 256 32)
+		(bidir)
+		(text "inout_std16_data[15..0]" (rect 0 0 89 12)(font "Arial" ))
+		(text "inout_std16_data[15..0]" (rect 146 27 235 39)(font "Arial" ))
+		(line (pt 256 32)(pt 240 32)(line_width 3))
+	)
+	(port
+		(pt 256 208)
+		(bidir)
+		(text "inout_std16_data_buf[15..0]" (rect 0 0 108 12)(font "Arial" ))
+		(text "inout_std16_data_buf[15..0]" (rect 127 203 235 215)(font "Arial" ))
+		(line (pt 256 208)(pt 240 208)(line_width 3))
+	)
+	(parameter
+		"MAX_TIME_DELAY"
+		"250000"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(drawing
+		(rectangle (rect 16 16 240 256)(line_width 1))
+	)
+	(annotation_block (parameter)(rect 272 -64 372 16))
+)

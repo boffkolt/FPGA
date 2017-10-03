@@ -1,0 +1,4 @@
+v 4
+file . "control.vhd" "1ffd51d465d0960c07adaf12f3bfe49a3eb769bd" "20170531074259.178":
+  entity control at 1( 0) + 0 on 11;
+  architecture rw_ram of control at 39( 2280) + 0 on 12;
