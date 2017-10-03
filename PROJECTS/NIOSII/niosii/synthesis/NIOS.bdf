@@ -40,7 +40,7 @@ agreement for further details.
 	(input)
 	(rect -152 192 128 208)
 	(text "INPUT" (rect 237 0 266 9)(font "Arial" (font_size 6)))
-	(text "buts_external_connection_export[3..0]" (rect 5 0 186 10)(font "Arial" ))
+	(text "buts_external_connection_export[7..0]" (rect 5 0 186 10)(font "Arial" ))
 	(pt 280 8)
 	(drawing
 		(line (pt 196 12)(pt 221 12))
@@ -54,9 +54,9 @@ agreement for further details.
 )
 (pin
 	(output)
-	(rect -144 272 128 288)
+	(rect -176 272 96 288)
 	(text "OUTPUT" (rect 231 7 271 16)(font "Arial" (font_size 6)))
-	(text "leds_external_connection_export[3..0]" (rect 5 6 185 16)(font "Arial" ))
+	(text "leds_external_connection_export[7..0]" (rect 5 6 185 16)(font "Arial" ))
 	(pt 272 8)
 	(drawing
 		(line (pt 272 8)(pt 220 8))
@@ -117,4 +117,9 @@ agreement for further details.
 		(line (pt 0 184)(pt 464 184))
 		(line (pt 0 0)(pt 0 184))
 	)
+)
+(connector
+	(pt 96 280)
+	(pt 128 280)
+	(bus)
 )
