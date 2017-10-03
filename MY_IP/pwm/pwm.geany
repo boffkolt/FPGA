@@ -1,0 +1,49 @@
+[editor]
+line_wrapping=false
+line_break_column=72
+auto_continue_multiline=true
+
+[file_prefs]
+final_new_line=true
+ensure_convert_new_lines=false
+strip_trailing_spaces=false
+replace_tabs=false
+
+[indentation]
+indent_width=4
+indent_type=1
+indent_hard_tab_width=8
+detect_indent=false
+detect_indent_width=false
+indent_mode=2
+
+[project]
+name=pwm
+base_path=/home/engineer/GIT/geane_git/pwm/
+description=
+file_patterns=
+
+[long line marker]
+long_line_behaviour=1
+long_line_column=72
+
+[files]
+current_page=-1
+
+[VTE]
+last_dir=/home/engineer
+
+[build-menu]
+NF_03_LB=WAVE VIEW
+NF_03_CM=gtkwave -g %e.vcd
+NF_03_WD=
+VHDLFT_02_LB=SIMULATE
+VHDLFT_02_CM=\sghdl -r --ieee=synopsys -C  %e --vcd=%e.vcd
+VHDLFT_02_WD=
+filetypes=VHDL;
+VHDLFT_00_LB=ANALIZE
+VHDLFT_00_CM=\sghdl  -a  --ieee=synopsys -fexplicit -C %f
+VHDLFT_00_WD=
+VHDLFT_01_LB=ELEBORATE
+VHDLFT_01_CM=\sghdl -e --ieee=synopsys -fexplicit -C   %e
+VHDLFT_01_WD=

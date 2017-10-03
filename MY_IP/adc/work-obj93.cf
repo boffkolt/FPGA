@@ -1,0 +1,18 @@
+v 4
+file . "sig_buf_tb.vhd" "3176cd25a26e8de981d7c935d210b663f77d0d7d" "20170926110038.888":
+  entity sig_buf_tb at 7( 213) + 0 on 62;
+  architecture arch_sig_buf_tb of sig_buf_tb at 24( 559) + 0 on 63;
+file . "SignedBufferAverage.vhd" "4a226da16a19984f4b93067d4c5edd0b6dc9e2cb" "20170926113045.226":
+  entity signedbufferaverage at 1( 0) + 0 on 72;
+  architecture behave of signedbufferaverage at 24( 767) + 0 on 73;
+file . "SerToParBuff.vhd" "a212baef59d743d5f0f06e2b3d0a21a0f9ecad6b" "20170926090152.775":
+  entity sertoparbuff at 1( 0) + 0 on 22;
+  architecture behave of sertoparbuff at 23( 981) + 0 on 23;
+file . "ads8861_tb.vhd" "abde6035499fbac7ae9bf43d666fb6b1f5db7d69" "20170926113825.195":
+  entity ads8861_tb at 7( 213) + 0 on 82;
+  architecture arch_ads8861_tb of ads8861_tb at 26( 721) + 0 on 83;
+file . "my_types.vhd" "fef0d2c01e3a84469ad93516aaab1129634201d1" "20170926081356.346":
+  package my_types at 1( 0) + 0 on 11;
+file . "ADS8861.vhd" "b4b781bd984666c95e2fa502847b89e84ba52f98" "20170926113057.231":
+  entity ads8861 at 1( 0) + 0 on 74;
+  architecture behave of ads8861 at 36( 1380) + 0 on 75;
