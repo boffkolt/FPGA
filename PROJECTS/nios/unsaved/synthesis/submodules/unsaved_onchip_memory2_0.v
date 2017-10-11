@@ -36,9 +36,6 @@ module unsaved_onchip_memory2_0 (
                                 )
 ;
 
-  parameter INIT_FILE = "unsaved_onchip_memory2_0.hex";
-
-
   output  [ 31: 0] readdata;
   input   [ 12: 0] address;
   input   [  3: 0] byteenable;
@@ -69,7 +66,8 @@ wire             wren;
     );
 
   defparam the_altsyncram.byte_size = 8,
-           the_altsyncram.init_file = INIT_FILE,
+           the_altsyncram.init_file = "UNUSED",
+           the_altsyncram.lpm_hint = "ENABLE_RUNTIME_MOD=YES, INSTANCE_NAME=NONE",
            the_altsyncram.lpm_type = "altsyncram",
            the_altsyncram.maximum_depth = 6250,
            the_altsyncram.numwords_a = 6250,
