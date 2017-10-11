@@ -1,9 +1,0 @@
-v 4
-file . "lcd_init.vhd" "0727a19a72d671db4830e02cb620f4fe4e42b5c9" "20170531080554.673":
-  package lcd_init at 1( 0) + 0 on 13;
-file . "lcd_package.vhd" "70be791e7b3c2d233ebb9f07d376d9b5d8b5be06" "20170531080553.455":
-  package lib_lcd at 1( 0) + 0 on 11 body;
-  package body lib_lcd at 32( 1129) + 0 on 12;
-file . "LCD.vhd" "bbb096e78d8f31f2106d569d94902d5a9c8cadb8" "20170531081416.283":
-  entity lcd at 1( 0) + 0 on 16;
-  architecture lcd_arch of lcd at 31( 854) + 0 on 17;
